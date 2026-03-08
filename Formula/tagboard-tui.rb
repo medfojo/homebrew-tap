@@ -4,17 +4,17 @@
 class TagboardTui < Formula
   desc "Cloud-backed terminal note-taking client"
   homepage "https://github.com/medfojo/tagboard"
-  version "0.3.0"
+  version "0.4.0"
 
   on_macos do
     on_arm do
       url "https://github.com/medfojo/tagboard/releases/download/v#{version}/tagboard-tui-darwin-arm64"
-      sha256 "ea9503adfb7fe88560406a626d0bf20f19d84de9c8d5392552601d9a6f6eccda"
+      sha256 "242f49cf7c804f71a4153ab6cccf5bb11dc401e1520db93822e8eccdb955f6a5"
     end
 
     on_intel do
       url "https://github.com/medfojo/tagboard/releases/download/v#{version}/tagboard-tui-darwin-amd64"
-      sha256 "95d4204597e2367842d76086c1b6bdc6193767f0019b2f714e1dddcd4faa5751"
+      sha256 "d75ba3181219a1f1c21cb70f2fc1f7b47fd41282aa85bde1c938ebd190460bdb"
     end
   end
 
